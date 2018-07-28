@@ -1,0 +1,66 @@
+.col-xs-2{
+    margin-top:20px;
+    padding-right:0;
+    width:19.6%;
+    text-align:center;
+    margin-bottom:-20px;
+}
+.top-head{
+    margin-top:20px;
+    padding-bottom:10px;
+    border-bottom:1px solid #f7f7f7;
+}
+.caption a{
+    display:block;
+    max-width:172px;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.caption strong{
+    color:#F40;
+    font-size:16px;
+}
+.caption strong del{
+    color:#999;
+    font-weight:normal;
+}
+.evaluate{
+    color:#999;
+}
+.evaluate span{
+    margin:0 2px;
+}
+.same{
+    position:relative;
+    background-color:#000;
+    opacity:0.4;
+    top:-30px;
+    left:0;
+    color:#fff;
+}
+.same a{
+    color:#fff;
+    margin:0 6px;
+}
+.thumbnail .caption{
+    margin-top:-30px;
+    padding-bottom:0;
+}
+.more{
+    display:block;
+    border:1px solid #ddd;
+    margin-top:20px;
+    text-align: center;
+    line-height:26px;
+    color:#999;
+}
+button.btn-default{
+    padding:2px 10px;
+    border-radius:0;
+    margin-right:4px;
+    border:1px solid #D7D7D7;
+    color:#999;
+    font-size:12px;
+    margin-bottom:10px;
+}

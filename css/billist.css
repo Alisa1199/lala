@@ -1,0 +1,62 @@
+.btn-group{
+    margin-top:20px;
+}
+header.pull-left{
+    margin-top:26px;
+    margin-right:10px;
+}
+.btn-group > .btn{
+    width:200px;
+    text-align:left;
+    border-radius: 0;
+}
+.btn-group > .btn span{
+    float:right;
+    margin-top:8px;
+}
+.btn-group .dropdown-menu{
+    width:100%;
+}
+table{
+    margin-top:20px;
+    width:100%;
+}
+table tr td{
+    vertical-align: middle;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+table tr:first-child td{
+    padding:0;
+}
+table tr+tr{
+    border-bottom:1px solid #e5e5e5;
+}
+table img{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+}
+.textarea{
+    margin-top:20px;
+    position: relative;
+}
+.textarea textarea{
+    width:800px;
+    padding:10px;
+}
+.fonttip{
+    position: absolute;
+    bottom:6px;
+    right:112px;
+    color:#999;
+}
+button.btn{
+    border-radius:0;
+    margin:20px 0 20px 80px;
+    width:150px;
+    text-align: center;
+}
+.hot-phone{
+    margin-left:80px;
+}

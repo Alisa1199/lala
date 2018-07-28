@@ -1,0 +1,61 @@
+.user{
+    margin:40px 60px 20px;
+    border-bottom:1px solid #eee;
+    padding-bottom:40px;
+}
+.user img{
+    float:left;
+    margin-right:60px;
+    border-radius:50%;
+}
+.user-info{
+    float:left;
+    margin-top:10px;
+}
+.members{
+    display:inline-block;
+    width:51px;
+    height:22px;
+    vertical-align: bottom;
+    margin-top:14px;
+    background:url(../images/icon_progress_24.png) no-repeat 0 0;
+}
+form.form-horizontal{
+    margin-top:60px;
+}
+.help-block{
+    color:#ccc;
+}
+form.form-horizontal input[type="text"],form.form-horizontal input[type="tel"],form.form-horizontal input[type="email"],select{
+    border-color:#e4e4e4;
+    box-shadow: none;
+}
+.gender{
+    line-height:36px;
+}
+.gender input{
+    margin-left:20px;
+}
+.gender label{
+    vertical-align: middle;
+    font-weight:normal;
+}
+.mag-t{
+    margin-top:40px;
+}
+.btn{
+    margin-top:40px;
+    border-radius:0;
+    margin-left:400px;
+    padding-left:20px;
+    padding-right:20px;
+}
+select{
+    margin-top:0;
+    width:180px;
+    padding-left:6px;
+    margin-right:5px;
+}
+.col-sm-4{
+    padding-left:0;
+}

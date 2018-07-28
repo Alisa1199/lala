@@ -1,0 +1,51 @@
+p{
+    margin:10px auto;
+}
+h5{
+    border-bottom:1px solid #eee;
+    line-height:26px;
+}
+.basic-msg{
+    margin:10px 0 20px 20px;
+}
+.basic-msg label{
+    font-weight:normal;
+    margin-right:20px;
+    line-height:36px;
+    margin-bottom:0;
+}
+.basic-msg input{
+    border:1px solid #eee;
+    line-height:36px;
+    width:200px;
+    height:36px;
+    padding-left:6px;
+    vertical-align: baseline!important;
+}
+.up-photos{
+    margin:40px 20px;
+}
+.up-photos header{
+    float:left;
+}
+.up-photos div{
+    float:left;
+    height:140px;
+    width:210px;
+    border:1px dashed #ddd;
+    text-align: center;
+    padding-top:30px;
+    background:#f5f5f5;
+    margin:0 20px;
+    color:#999;
+}
+.am-icon-plus{
+    font-size:28px;
+    color:#999;
+}
+.btn-primary{
+    margin-left:110px;
+    padding-left:60px;
+    padding-right:60px;
+    border-radius:0;
+}

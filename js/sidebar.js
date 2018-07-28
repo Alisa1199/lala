@@ -1,0 +1,3 @@
+$(()=>{
+    $("#sidebar").load("sidebar.html");
+})

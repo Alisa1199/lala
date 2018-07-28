@@ -1,0 +1,56 @@
+.media-body .media-left img{
+    width:148px;
+    height:148px;
+    border:1px solid #ddd;
+}
+.media .media-body .media-body{
+    padding-top:0;
+}
+.media-body ul{
+    border-top:1px solid #F5F8FA;
+}
+.media-body ul li{
+    float:left;
+    width:33%;
+    text-align: center;
+    line-height:40px;
+    position:relative;
+    cursor:pointer;
+}
+.media span.good,.media span.general,.media span.bad{
+    display:inline-block;
+    background: url(../images/iconfont-evaluate.png);
+    background-size: 16px 16px;
+    width:16px;
+    height:16px;
+}
+.media span.good.active{
+    background: url(../images/iconfont-good.png);
+    background-size: 16px 16px;
+}
+.media span.general.active{
+    background: url(../images/iconfont-middle.png);
+    background-size: 16px 16px;
+}
+.media span.bad.active{
+    background:url(../images/iconfont-badon.png);
+    background-size: 16px 16px;
+}
+.form-control{
+    border-color:#F5F8FA;
+    box-shadow:none;
+}
+.files{
+    position:absolute;
+    margin-top:20px;
+}
+.files input{
+    position:relative;
+    top:-20px;
+    left:0;
+    opacity: 0;
+}
+button.btn{
+    border-radius: 0;
+    margin-left:400px;
+}

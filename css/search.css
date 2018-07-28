@@ -1,0 +1,75 @@
+.related-search{
+    line-height:26px;
+    margin:10px auto;
+}
+.table,.table th{
+    text-align:center;
+}
+.table .brand,table td.content a{
+    height:50px;
+    line-height:50px;
+}
+.table td.content{
+    text-align:left;
+}
+.table td.content a{
+    margin:auto 5px;
+}
+.table td.all{
+    width:80px;
+    line-height:50px;
+}
+.table .all a{
+    color:#f00;
+    padding:5px;
+    border:1px solid #999;
+    height:30px;
+    border-radius:3px;
+}
+.table{
+    width:98%;
+    margin:auto;
+}
+.btn-group{
+    margin-bottom: 20px;
+}
+.btn-last{
+    text-align:left;
+    width:688px;
+}
+.match{
+    width:212px;
+    color:#f00;
+}
+.col-md-2{
+    width:20%;
+    margin-top:10px;
+}
+.thumbnail{
+    padding:0;
+    cursor: pointer;
+    min-height:300px;
+}
+.thumbnail:hover{
+    box-shadow: #999999 0 2px 3px;
+}
+.thumbnail .price{
+    font-size:14px;
+    font-weight:bold;
+}
+.thumbnail p{
+    line-height:20px;
+}
+.thumbnail p+p{
+    margin-top:10px;
+}
+.size20{
+    font-size:20px;
+    text-align:center;
+    margin: 10px 0 20px;
+}
+.col-xs-2{
+    padding-right:0;
+    width:19.6%;
+    text-align:center;
+}

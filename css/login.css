@@ -1,0 +1,104 @@
+.logo{
+    height:60px;
+}
+.banner{
+    background:#fd7a72;
+    height:470px;
+}
+.breadcrumb{
+    border-top:none;
+}
+.login-bg{
+    background: url("../images/big.jpg") no-repeat;
+}
+.login{
+    width:360px;
+    height:430px;
+    float:right;
+    margin-right:80px;
+    margin-top:20px;
+    background:#fff;
+    padding:10px 20px;
+}
+header{
+    text-align:center;
+    font-weight:600;
+    padding:8px;
+    font-size:16px;
+    width:50%;
+    border-bottom:1px solid transparent;
+    cursor:pointer;
+}
+header.login-top{
+    width:100%;
+    cursor: default;
+}
+header:hover,.active{
+    border-bottom-color:#d2364c;
+}
+header.login-top:hover{
+    border-bottom-color:transparent;
+}
+.btn-default{
+    margin-top:-4px;
+    font-weight:normal;
+    font-size:14px;
+    border:none;
+    float:right;
+    border-radius:0;
+    padding:4px;
+    background-color:#e5e5e5;
+}
+.form-group{
+    margin:20px auto;
+}
+.form-group input{
+    padding-left:40px;
+    border:none;
+    line-height:42px;
+    height:42px;
+    box-shadow: none;
+    border-radius:0;
+    margin-bottom:2px;
+}
+.login .checkbox input[type="checkbox"]{
+    margin-left:-16px;
+    margin-top:6px;
+}
+.checkbox span{
+    margin-left:180px;
+}
+form button.btn{
+    margin:20px auto;
+    height:40px;
+    border-radius:0;
+}
+p{
+    font-size:14px;
+    margin-bottom:10px;
+    color:#666;
+}
+.fast-login{
+    font-size:14px;
+}
+.fast-login a{
+    margin-right:20px;
+}
+.fast-login a span{
+    margin-right:6px;
+}
+.am-icon-sm{
+    position: relative;
+    top:32px;
+    left:10px;
+}
+#form .am-icon-sm{
+    position: relative;
+    top:38px;
+    left:10px;
+}
+.txt-focus{
+    border: 1px solid red;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px #ff6a59;
+}

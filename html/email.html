@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/amazeui.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+    <link rel="stylesheet" href="../css/address.css"/>
+    <link rel="stylesheet" href="../css/bindphone.css"/>
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.js"></script>
+    <script src="../js/respond.js"></script>
+    <![endif]-->
+    <title>验证邮箱</title>
+</head>
+<body>
+<div id="header"></div>
+<div id="nav"></div>
+<div class="container">
+    <div class="media">
+        <div class="media-left"><div id="personal"></div></div>
+        <div class="media-body">
+            <h4>绑定邮箱<span> / Email</span></h4>
+            <div class="bind clearfix">
+                <div class="start">
+                    <span></span>
+                    <p>邮箱验证</p>
+                </div>
+                <div class="process"></div>
+                <div class="end">
+                    <span>2</span>
+                    <p>完成</p>
+                </div>
+            </div>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputemail" class="col-xs-2 col-xs-offset-1 control-label">验证邮箱</label>
+                    <div class="col-xs-6">
+                        <input type="email" class="form-control" id="inputemail" placeholder="请输入邮箱地址">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputemail1" class="col-xs-2 col-xs-offset-1 control-label">验证码</label>
+                    <div class="col-xs-6">
+                        <input type="number" class="form-control" id="inputemail1" placeholder="验证码">
+                    </div>
+                    <div class="col-xs-2">
+                        <button type="submit" class="btn btn-primary">验证码</button>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary save">保存修改</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="footer" class="container"></div>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/header.js"></script>
+<script src="../js/nav.js"></script>
+<script src="../js/personal.js"></script>
+<script src="../js/footer.js"></script>
+</body>
+</html>

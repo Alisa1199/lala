@@ -1,0 +1,217 @@
+.bind{
+    width:700px;
+    margin:50px auto;
+    color:#b3b3b3;
+}
+.start,.second,.third,.half{
+    float:left;
+    text-align: center;
+}
+.start p,.second p,.half p{
+    font-size:12px;
+    margin-top:6px;
+}
+.end{
+    float:right;
+    text-align: center;
+    margin-top:-14px;
+}
+.end p,.third p{
+    font-size:12px;
+    margin-top:12px;
+}
+.start span,.end span,.second span,.third span,.half span{
+    display:inline-block;
+    width:28px;
+    height:28px;
+    background:url(../images/sprite.png) no-repeat -79px -135px;
+    border:5px solid #dcdcdc;
+    border-radius:50%;
+}
+.second,.third{
+    margin-left:160px;
+}
+.half{
+    margin-left:260px;
+}
+.second span{
+    background-position:-103px -135px;
+}
+.process{
+    position:relative;
+    top:3px;
+    left:38px;
+    width:636px;
+    height:5px;
+    margin-top:10px;
+    background-color:#dcdcdc;
+    z-index:-1;
+}
+.end span,.third span,.half span{
+    background-color:#f2f2f2;
+    background-image:none;
+}
+.form-horizontal{
+    clear:both;
+    margin-top:20px;
+    color:#333;
+}
+.form-horizontal .control-label{
+    font-weight:normal;
+}
+.form-horizontal .form-group .col-md-2{
+    padding-left:0;
+    padding-right:0;
+}
+.btn{
+    border-radius:0;
+}
+.save{
+    margin-top:10px;
+    margin-left:450px;
+}
+.col-md-6 select{
+    width:475px;
+    height:34px;
+    border-color:#ccc;
+}
+.mag-t{
+    margin-top:8px;
+}
+.address{
+    width:252px;
+    height:151px;
+    padding:10px;
+    background:url(../images/peraddbg.png)no-repeat scroll 0% 0%;
+}
+.address span{
+    float:left;
+    color:#ddd;
+    margin-top:2px;
+}
+.address p{
+    float:left;
+    width:210px;
+    margin-left:6px;
+}
+.address p+p{
+margin-left:20px;
+}
+.together-info{
+    margin:40px auto;
+}
+.orderinfo{
+    float:left;
+    margin-left:40px;
+}
+.orderinfo img{
+    width:22px;
+    height:22px;
+    margin-right:10px;
+}
+.orderinfo p{
+    width:500px;
+}
+.time-info{
+    margin-left:32px;
+}
+.order-company{
+    margin-top:50px;
+    margin-left:32px;
+}
+.product{
+    margin:20px;
+}
+.product img{
+    width:100px;
+    height:100px;
+    margin-right:10px;
+    margin-left:40px;
+}
+.end .refund{
+    margin-top:6px;
+}
+.bank{
+    border:1px solid #e5e5e5;
+    width:900px;
+    margin:20px auto;
+}
+.bank header{
+    border-bottom:1px solid #e5e5e5;
+    padding:0 10px;
+    line-height:40px;
+}
+table.refund{
+    width:100%;
+}
+.refund td{
+    border:1px solid #e5e5e5;
+    padding:10px;
+}
+.refund-left{
+    width:300px;
+    vertical-align: top;
+}
+.refund-left img{
+    float:left;
+    width:60px;
+    height:60px;
+    margin-right:10px;
+}
+.refund-left p{
+    width:208px;
+    line-height:26px;
+}
+td.refund-right{
+    padding-right:40px;
+}
+.refund-right select{
+    margin-top:0;
+    width:100%;
+    padding-left:10px;
+}
+.refund-right .form-horizontal{
+    margin-top:0;
+}
+.refund-right .control-label{
+    font-weight:bold;
+}
+.refund-right input{
+    line-height:34px;
+    width:100%;
+    padding-left:10px;
+}
+.photo{
+    border:1px dashed #ccc;
+    width:610px;
+    position:relative;
+    top:10px;
+    left:34px;
+    height:110px;
+}
+.photo img{
+    width:80px;
+    height:80px;
+    position:relative;
+    top:15px;
+    left:15px;
+}
+.photo input{
+    position:absolute;
+    top:15px;
+    left:15px;
+    width:80px;
+    height:80px;
+    opacity: 0;
+}
+.photo p{
+    position:absolute;
+    right:20px;
+    bottom:40px;
+}
+.refund-right .btn{
+    margin:10px 0 10px 300px;
+}
+.start .no-mrg{
+    margin-top:0;
+}

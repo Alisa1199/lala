@@ -1,0 +1,37 @@
+.success{
+    line-height:40px;
+}
+.success span{
+    vertical-align: middle;
+    margin-right:10px;
+}
+.success-details{
+    margin-left:40px;
+    margin-top:20px;
+}
+.success-details header{
+    font-size:18px;
+}
+.success-details header span{
+    font-size:14px;
+    color:#f40;
+    font-weight:bold;
+}
+.success-details .content{
+    border:1px solid #f40;
+    margin-bottom:10px;
+    padding:10px 20px;
+    float:left;
+}
+.success-details .content p{
+    line-height:40px;
+}
+.success-details p{
+    line-height:36px;
+}
+.success-details p a{
+    margin-left:10px;
+}
+.success-details p a span{
+    color:#f40;
+}

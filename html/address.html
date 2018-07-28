@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/amazeui.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+    <link rel="stylesheet" href="../css/address.css"/>
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.js"></script>
+    <script src="../js/respond.js"></script>
+    <![endif]-->
+    <title>地址管理</title>
+</head>
+<body>
+<div id="header"></div>
+<div id="nav"></div>
+<div class="container">
+<div class="media">
+    <div class="media-left"><div id="personal"></div></div>
+    <div class="media-body">
+        <h4>地址管理<span> / Address list</span></h4>
+        <ul class="details-address clearfix">
+            <li class="active">
+                <header><span class="glyphicon glyphicon-user"></span> 画画 <span class="glyphicon glyphicon-phone"></span> 18381687899<span class="label label-primary">默认地址</span></header>
+                <p><span class="glyphicon glyphicon-map-marker"></span> 收货地址：成都市双流县剑南大道美城云庭3单元709</p>
+                <div class="modify">
+                    <a href="#"><span class="glyphicon glyphicon-edit"></span> 编辑</a> |
+                    <a href="#"><span class="glyphicon glyphicon-trash"></span> 删除</a>
+                </div>
+            </li>
+            <li>
+                <header><span class="glyphicon glyphicon-user"></span> 贝贝 <span class="glyphicon glyphicon-phone"></span> 15984651254</header>
+                <p><span class="glyphicon glyphicon-map-marker"></span> 收货地址：成都市双流县剑南大道美城云庭3单元709</p>
+                <div class="modify">
+                    <a href="#">设为默认</a> |
+                    <a href="#"><span class="glyphicon glyphicon-edit"></span>  编辑</a> |
+                    <a href="#"><span class="glyphicon glyphicon-trash"></span>  删除</a>
+                </div>
+            </li>
+            <li>
+                <header><span class="glyphicon glyphicon-user"></span> 贝贝 <span class="glyphicon glyphicon-phone"></span> 15984651254</header>
+                <p><span class="glyphicon glyphicon-map-marker"></span> 收货地址：成都市双流县剑南大道美城云庭3单元709</p>
+                <div class="modify">
+                    <a href="#">设为默认</a> |
+                    <a href="#"><span class="glyphicon glyphicon-edit"></span>  编辑</a> |
+                    <a href="#"><span class="glyphicon glyphicon-trash"></span>  删除</a>
+                </div>
+            </li>
+        </ul>
+        <h4 class="add-address">新增地址<span> / Add address</span></h4>
+        <form class="form-horizontal">
+            <div class="row">
+                <div class="col-xs-2 col-md-1 text-right">
+                    <label>收货人</label>
+                </div>
+                <div class="col-xs-8">
+                    <input type="text" id="consignee" class="form-control" placeholder="收货人"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-2 col-md-1 text-right">
+                    <label>手机号码</label>
+                </div>
+                <div class="col-xs-8">
+                    <input type="tel" id="phone" class="form-control" placeholder="手机号码"/>
+                </div>
+            </div>
+            <div class="row location">
+                <div class="col-xs-2 col-md-1 text-right">
+                    <label>所在地</label>
+                </div>
+                <div class="col-xs-8">
+                    <select>
+                        <option>浙江省</option>
+                        <option>四川省</option>
+                    </select>
+                    <select>
+                        <option>温州市</option>
+                        <option>成都市</option>
+                    </select>
+                    <select>
+                        <option>瑞安区</option>
+                        <option>简阳市</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-2 col-md-1 text-right">
+                    <label>详细地址</label>
+                </div>
+                <div class="col-xs-8">
+                    <textarea class="form-control" rows="3" placeholder="请输入详细地址"></textarea>
+                    100字以内写出你的详细地址...
+                </div>
+            </div>
+            <div class="col-md-7">
+                <button type="button" class="btn btn-primary">保存</button>
+                <button type="button" class="btn btn-primary-dark" data-dismiss="modal">取消</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+<div id="footer" class="container"></div>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/header.js"></script>
+<script src="../js/nav.js"></script>
+<script src="../js/personal.js"></script>
+<script src="../js/footer.js"></script>
+</body>
+</html>

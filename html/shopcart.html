@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+    <link rel="stylesheet" href="../css/pay.css"/>
+    <link rel="stylesheet" href="../css/shopcart.css"/>
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.js"></script>
+    <script src="../js/respond.js"></script>
+    <![endif]-->
+    <title>购物车</title>
+</head>
+<body>
+<div id="header"></div>
+<div class="container">
+    <div class="panel panel-default">
+            <div class="panel-heading top-head">
+                <div class="row">
+                    <div class="col-xs-6">商品信息</div>
+                    <div class="col-xs-1">单价</div>
+                    <div class="col-xs-2">数量</div>
+                    <div class="col-xs-1">金额</div>
+                    <div class="col-xs-2">操作</div>
+                </div>
+            </div>
+        <div class="panel panel-default">
+            <div class="panel-heading color-r">
+                <div class="row">
+                    <span>已享优惠:省￥19.50</span>
+                    <a href="#">第二支半价，第三支免费>></a></div>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="media">
+                            <input type="checkbox" class="pull-left mrg-r-10 chose"/>
+                            <div class="media-left"><img src="../images/kouhong.jpg_80x80.jpg"></div>
+                            <div class="media-body">
+                                <header class="head-reset"><a href="#">美康粉黛醉美唇膏 持久保湿滋润防水不掉色</a></header>
+                                <p class="p-reset">颜色：12#川南玛瑙 包装：裸装</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-1"><span class="delate">78.00</span><br/><strong>39.00</strong></div>
+                    <div class="col-xs-2 number">
+                        <button class="btn btn-default reduce">-</button>
+                        <input type="number" value="1"/>
+                        <button class="btn btn-default add">+</button>
+                    </div>
+                    <div class="col-xs-1 count">39.00</div>
+                    <div class="col-xs-2">
+                        <a href="#">移入收藏夹</a><br/>
+                        <a href="#">删除</a>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="media">
+                            <input type="checkbox" class="pull-left mrg-r-10 chose"/>
+                            <div class="media-left"><img src="../images/kouhong.jpg_80x80.jpg"></div>
+                            <div class="media-body">
+                                <header class="head-reset"><a href="#">美康粉黛醉美唇膏 持久保湿滋润防水不掉色</a></header>
+                                <p class="p-reset">颜色：12#川南玛瑙 包装：裸装</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-1"><span class="delate">118.00</span><br/><strong>109.00</strong></div>
+                    <div class="col-xs-2 number">
+                        <button class="btn btn-default reduce">-</button>
+                        <input type="number" value="1"/>
+                        <button class="btn btn-default add">+</button>
+                    </div>
+                    <div class="col-xs-1 count">109.00</div>
+                    <div class="col-xs-2">
+                        <a href="#">移入收藏夹</a><br/>
+                        <a href="#">删除</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="panel panel-default">
+                <div class="panel-heading color-r">
+                    <div class="row">
+                        <span>已享优惠:省￥19.50</span>
+                        <a href="#">第二支半价，第三支免费>></a></div>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="media">
+                                <input type="checkbox" class="pull-left mrg-r-10 chose"/>
+                                <div class="media-left"><img src="../images/kouhong.jpg_80x80.jpg"></div>
+                                <div class="media-body">
+                                    <header class="head-reset"><a href="#">美康粉黛醉美唇膏 持久保湿滋润防水不掉色</a></header>
+                                    <p class="p-reset">颜色：12#川南玛瑙 包装：裸装</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-1"><span class="delate">688.00</span><br/><strong>588.00</strong></div>
+                        <div class="col-xs-2 number">
+                            <button class="btn btn-default reduce">-</button>
+                            <input type="number" value="1"/>
+                            <button class="btn btn-default add">+</button>
+                        </div>
+                        <div class="col-xs-1 count">588.00</div>
+                        <div class="col-xs-2">
+                            <a href="#">移入收藏夹</a><br/>
+                            <a href="#">删除</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="clearfix intotal">
+            <div class="pull-left">
+                <label><input type="checkbox" class="pull-left allChecked"/>全选</label>
+                <a href="#">删除</a>
+                <a href="#">移入收藏夹</a>
+            </div>
+            <div class="pull-right">
+                <span id="count">已选商品 0</span>
+                <span id="sum"> 件 合计 ￥0.00</span>
+                <a href="pay.html" class="btn">结算</a>
+            </div>
+        </div>
+</div>
+<div id="footer" class="container"></div>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/header.js"></script>
+<script src="../js/footer.js"></script>
+<script src="../js/shopcart.js"></script>
+</body>
+</html>

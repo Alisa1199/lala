@@ -1,0 +1,72 @@
+.row{
+    margin-top:20px;
+}
+.panel{
+    height:160px;
+}
+.panel-heading{
+    padding:10px;
+}
+.credit,.saving{
+    display: inline-block;
+    width:50px;
+    height:18px;
+    background:url(../images/cardtype.png) no-repeat left -18px;
+    vertical-align: middle;
+    margin-left:6px;
+}
+.saving{
+    background:url(../images/cardtype.png) no-repeat left top;
+}
+.bank-brand{
+    display:inline-block;
+    max-width:80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+}
+.col-md-3{
+    padding-left:0;
+}
+.panel-heading{
+    font-size:12px;
+}
+.panel-body{
+    padding:0;
+}
+.manage{
+    background-color:#CFD2D4;
+    line-height:36px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.manage a{
+    float:right;
+    color:#0088CC;
+}
+.panel-body p{
+    padding-left:10px;
+    padding-right:10px;
+    line-height:36px;
+    margin-top:10px;
+}
+.row{
+    margin-left:0;
+}
+.row .add-card a{
+    display:inline-block;
+    text-align:center;
+    border:1px dashed #AACCDD;
+    height:160px;
+    width:100%;
+    padding-top:40px;
+    background:#FAFAFB;
+}
+.row .add-card a span{
+    color:#999;
+    font-size:32px;
+}
+.row .add-card a strong{
+    color:#0088CC;
+}

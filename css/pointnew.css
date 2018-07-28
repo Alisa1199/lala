@@ -1,0 +1,98 @@
+.usable-integral{
+    height:100px;
+    text-align: center;
+    padding-top:20px;
+    position:relative;
+    color:#fff;
+    background: linear-gradient(#f99847,#f85e38);
+}
+.usable-integral header{
+    font-size:18px;
+    line-height:40px;
+}
+.usable-integral .sign-in{
+    position:absolute;
+    right:10px;
+    top:20px;
+}
+.usable-integral .sign-in>a{
+    color:#fff;
+    margin-left:10px;
+}
+header.head{
+    line-height:36px;
+    font-size:16px;
+    margin:10px auto;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
+.head img{
+    width:25px;
+    height:25px;
+    margin-right:10px;
+    vertical-align: sub;
+}
+.table > tbody > tr > td{
+    vertical-align: middle;
+}
+.table > tbody > tr > td+td{
+    text-align: right;
+}
+.panel{
+    border:none;
+    box-shadow: none;
+}
+.panel-heading{
+    border-radius:0;
+    border:none;
+}
+.table > tbody > tr > td{
+    border:none;
+    border-bottom:1px solid #e5e5e5;
+}
+.left,.right{
+    float:left;
+    width:50%;
+}
+.left p{
+    line-height:30px;
+}
+.left .btn{
+    margin-left:60px;
+    padding:4px 10px;
+    margin-top:-6px;
+}
+.left span{
+    float:right;
+    display:block;
+    width:1px;
+    height:50px;
+    background:#ddd;
+    margin-top:-54px;
+    margin-right:20px;
+}
+ .am-icon-calendar,.left strong{
+    color:#F03726;
+ }
+.am-icon-calendar{
+    font-size:40px;
+    margin-top:-4px;
+    height: fit-content;
+    margin-left:10px;
+}
+.sign{
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+}
+.tab-pane table{
+    width:100%;
+}
+.tab-pane table tr td{
+    border:1px solid #ddd;
+    line-height:50px;
+    text-align: center;
+}
+.tab-pane table tr:first-child td{
+    border-top:none;
+}

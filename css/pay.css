@@ -1,0 +1,243 @@
+#nav{
+    border-bottom:none;
+}
+.address .btn{
+    border-radius:0;
+    border:none;
+    font-weight:bold;
+}
+#myModalLabel span{
+    font-size:14px;
+    color:#333;
+}
+.modal-content{
+    box-shadow:none;
+    border-radius:0;
+}
+.modal-footer{
+    text-align:center;
+}
+.modal-footer .btn{
+    border-radius:0;
+}
+.modal-content .col-md-2,.modal-content .col-md-10{
+    padding-left:0;
+    margin-top:10px;
+    font-size:14px;
+}
+.modal-content .col-md-2{
+    line-height:34px;
+    color:#6c6c6c;
+    font-weight:normal;
+}
+.modal-content .col-md-10 input{
+    border-radius:0;
+}
+.modal-content .col-md-10 .btn-group{
+    width:32.7%;
+}
+.modal-content .col-md-10 .btn-group button{
+    width:100%;
+    border-radius:0;
+}
+.modal-content .col-md-10 .btn-group .caret{
+    float:right;
+    margin-top:8px;
+}
+.modal-footer{
+    border-top:none;
+    margin-bottom:20px;
+}
+.details-address{
+    margin-top:20px;
+    font-size:14px;
+}
+.details-address li{
+    float:left;
+    margin-right:10px;
+    padding:10px;
+    height:150px;
+    width:255px;
+    text-align: justify;
+    background:url(../images/peraddbg.png) no-repeat scroll 0% 0%;
+}
+.details-address>li.active,.details-address>li:focus{
+    background:url(../images/peraddressbg.png) no-repeat scroll 0% 0%;
+}
+.details-address li header{
+    font-weight:bold;
+}
+.details-address li .label{
+    float:right;
+    background-color:#e0e0e0;
+    border-radius:0;
+    line-height:14px;
+}
+.details-address li .modify{
+    margin-top:20px;
+    text-align: right;
+}
+.way{
+    margin-top:20px;
+    font-size:14px;
+}
+.way header{
+    font-weight:bold;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    border-bottom:1px solid #e5e5e5;
+}
+.way ul li{
+    float:left;
+    width:18%;
+    padding:8px 10px;
+    margin-right:20px;
+}
+.way ul li span{
+    display:inline-block;
+    vertical-align: middle;
+    width:36px;
+    height:36px;
+    margin-right:10px;
+    background:url(../images/kuaidi.png) no-repeat 0 -1008px;
+}
+.way ul li span.yt{
+    background-position: 0 -468px;
+}
+.way ul li span.yd{
+    background-position: 0 -576px;
+}
+.way ul li span.zt{
+    background-position: 0 -324px;
+}
+.way ul li span.sf{
+    background-position: 0 -180px;
+}
+.way ul li img{
+    width:54px;
+}
+.confirm{
+    font-weight:bold;
+    margin-top:20px;
+    font-size:14px;
+}
+.panel{
+    margin-top:10px;
+    text-align: center;
+    border-radius:0;
+    box-shadow: none;
+    font-size:14px;
+}
+.panel-body{
+    border-top:1px solid #f5f5f5;
+}
+.media-left img{
+    border:1px solid #f5f5f5;
+}
+.media-body{
+    padding-top:0;
+    text-align:left;
+}
+.media-body>input{
+    padding-left:8px;
+    width:80%;
+}
+.media-body p{
+    color:#999;
+    margin-top:20px;
+}
+.number{
+    color:#888;
+}
+.number button{
+    margin-left:28px;
+}
+.number .btn{
+    margin:0;
+    padding:0 8px;
+    border-radius:0;
+    background-color:#d4d4d4;
+    margin-left:28px;
+}
+.number .add{
+    margin-left:0;
+}
+.number input{
+    width:40px;
+    padding-left:10px;
+}
+.way li.seleted{
+    border:1px solid #f03726;
+    position:relative;
+}
+.way .seleted i{
+    width:10px;
+    height:10px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    background:url(../images/sys_item_selected.gif) no-repeat right bottom;
+}
+.coupons .col-md-8{
+    padding-left:0;
+}
+.coupons label{
+    vertical-align: middle;
+    height:34px;
+    line-height:34px;
+    font-weight:normal;
+}
+.coupons .col-md-8 .btn-group,.coupons .col-md-8 .btn-group>.btn{
+    width:100%;
+    border-radius:0;
+    text-align:left;
+    border-color:#e5e5e5;
+}
+.coupons .col-md-8 .btn-group .caret{
+    float:right;
+    margin-top:8px;
+}
+.col-md-7 input{
+    padding-left:10px;
+    width:80%;
+    border:1px solid #e5e5e5;
+}
+.total-header{
+    font-size:14px;
+    font-weight:bold;
+}
+.total-header span{
+    color:#FF4200;
+}
+.total{
+    border:2px solid #ff4200;
+    width:450px;
+    float:right;
+    padding:10px;
+    margin-top:10px;
+    font-size:14px;
+}
+.total p{
+    line-height:36px;
+}
+.price{
+    font-size:30px;
+    font-weight:bold;
+    color:#ff4200;
+}
+.tijiao{
+    margin-top:10px;
+}
+.tijiao .btn{
+    border-radius:0;
+    font-size:18px;
+    background-color:#f50;
+    color:#fff;
+}
+.dropdown-menu{
+    width: 100%;
+    text-align: center;
+}
+/*.details-address li.active,.details-address li:focus{
+    background: url(../images/peraddressbg.png) no-repeat scroll 0% 0%;
+}*/

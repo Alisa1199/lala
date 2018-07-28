@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/amazeui.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+    <link rel="stylesheet" href="../css/address.css"/>
+    <link rel="stylesheet" href="../css/bonus.css"/>
+    <link rel="stylesheet" href="../css/coupon.css"/>
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.js"></script>
+    <script src="../js/respond.js"></script>
+    <![endif]-->
+    <title>优惠券</title>
+</head>
+<body>
+<div id="header"></div>
+<div id="nav"></div>
+<div class="container">
+    <div class="media">
+        <div class="media-left"><div id="personal"></div></div>
+        <div class="media-body">
+            <h4>优惠券<span> / Coupon</span></h4>
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#usable" aria-controls="home" role="tab" data-toggle="tab">可用优惠券</a></li>
+                <li role="presentation"><a href="#disabled" aria-controls="profile" role="tab" data-toggle="tab">已用/过期优惠券</a></li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="usable">
+                    <div class="money">
+                        <strong>￥8</strong>
+                        <p>【消费满 95元 可用】</p>
+                        <p class="time">2015-12-21--2015-12-31</p>
+                        <span class="c-top"></span>
+                        <span class="c-bottom"></span>
+                        <div class="number">
+                            <p>劵编码：15643284</p>
+                            <button type="button" class="btn use">立即使用</button>
+                        </div>
+                    </div>
+                    <div class="ticket">
+                        <strong>运费券</strong>
+                        <p>【不含偏远地区】</p>
+                        <p class="time">2015-12-21--2015-12-31</p>
+                        <span class="c-top"></span>
+                        <span class="c-bottom"></span>
+                        <div class="number">
+                            <p>劵编码：15643284</p>
+                            <button type="button" class="btn use">立即使用</button>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="disabled">
+                    <div class="money">
+                        <span class="used"></span>
+                        <strong>￥8</strong>
+                        <p>【消费满 95元 可用】</p>
+                        <p class="time">2015-12-21--2015-12-31</p>
+                        <span class="c-top"></span>
+                        <span class="c-bottom"></span>
+                        <div class="number">
+                            <p>劵编码：15643284</p>
+                            <button type="button" class="btn use">删除</button>
+                        </div>
+                    </div>
+                    <div class="ticket">
+                        <span class="failure"></span>
+                        <strong>运费券</strong>
+                        <p>【不含偏远地区】</p>
+                        <p class="time">2015-12-21--2015-12-31</p>
+                        <span class="c-top"></span>
+                        <span class="c-bottom"></span>
+                        <div class="number">
+                            <p>劵编码：15643284</p>
+                            <button type="button" class="btn use">删除</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer" class="container"></div>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/header.js"></script>
+<script src="../js/nav.js"></script>
+<script src="../js/personal.js"></script>
+<script src="../js/footer.js"></script>
+</body>
+</html>

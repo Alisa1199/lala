@@ -1,0 +1,143 @@
+#nav {
+    border-bottom: 2px solid #d2364c;
+}
+.media{
+    margin-top:20px!important;
+}
+.media-left{
+    width:160px;
+    border:1px solid #f7f7f7;
+    padding-right:0;
+}
+.media-left header{
+    text-align:center;
+    font-size:16px;
+    line-height:40px;
+    font-weight:700;
+    color: rgb(240, 55, 38);
+    border-bottom:3px solid rgb(253, 109, 55);
+}
+.media-left span{
+    margin-right:10px;
+    color:rgb(253, 109, 55);
+}
+.media-left ul{
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+}
+.media-left ul+ul{
+    border-top:1px solid #f7f7f7;
+}
+.media-left ul li{
+    line-height:28px;
+}
+.media-left ul li a{
+    color:#999;
+}
+.media-left .head{
+    text-align:left;
+    margin-left:24px;
+    color:#333;
+}
+.media-body{
+    width:1000px;
+    padding-left:20px;
+}
+.media-body h4{
+    font-size:18px;
+    padding-bottom:20px;
+    font-weight:normal;
+    border-bottom:1px solid #f7f7f7;
+}
+.details-address{
+    margin-top:20px;
+    font-size:14px;
+    color:#6e6e6e;
+}
+.details-address .glyphicon{
+    color:#bbb;
+}
+.details-address li{
+    float:left;
+    margin-right:10px;
+    padding:10px;
+    height:150px;
+    width:255px;
+    text-align: justify;
+    background:url(../images/peraddbg.png) no-repeat scroll 0% 0%;
+}
+.details-address>li.active,.details-address>li:focus{
+    background:url(../images/peraddressbg.png) no-repeat scroll 0% 0%;
+}
+.details-address li .label{
+    float:right;
+    border-radius:0;
+    line-height:14px;
+}
+.details-address li .modify{
+    margin-top:20px;
+    text-align: right;
+}
+.media-body .add-address{
+    margin-top:40px;
+}
+.media-body .form-horizontal .row{
+    margin:10px auto;
+}
+.media-body .form-horizontal .row .col-md-1{
+    width:10%;
+    padding-right:0;
+}
+.media-body .form-horizontal .row .col-md-1 label{
+    font-weight:normal;
+}
+.form-control{
+    border-radius:0;
+}
+.col-md-6 .btn-group .btn{
+    border-radius:0;
+    width: 150.5px;
+}
+.col-md-6 .btn-group .btn span{
+    float:right;
+    margin-top:8px;
+}
+.col-md-7{
+    text-align:center;
+    margin-top:10px;
+}
+.col-md-7 .btn{
+    border-radius:0;
+}
+.btn-primary-dark{
+    background-color:#bd717d;
+    color:#fff;
+}
+.btn-primary-dark:hover{
+    color:#fff;
+    background-color:#bd4b5c;
+}
+form.form-horizontal{
+    margin-top:20px;
+}
+.btn-group ul.dropdown-menu li{
+    min-width:148px;
+    text-align:center;
+}
+select{
+    width:200px;
+    height:34px;
+    margin-top:20px;
+    border-color:#ccc;
+    border-radius: 0;
+}
+.col-xs-8 select{
+    margin-top:0;
+    width:205px;
+}
+.col-md-6 select{
+    width:32.75%;
+    height:34px;
+    margin:0;
+}

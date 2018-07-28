@@ -1,0 +1,84 @@
+.tab-content{
+    margin-top:20px;
+}
+p{
+    font-size:12px;
+}
+.money,.ticket{
+    float:left;
+    position:relative;
+    width:205px;
+    height:125px;
+    background-color:#74d2d4;
+    color:#fff;
+    text-align: center;
+    padding-top:40px;
+    margin-left:20px;
+}
+strong{
+    font-size:36px;
+    line-height:36px;
+    font-weight:400;
+}
+.money .time{
+    color:#31aaad;
+ }
+.ticket .time{
+    color:#417ab0;
+}
+.ticket strong{
+    font-size:24px;
+}
+ .c-top{
+     display:inline-block;
+     position:absolute;
+     width:46px;
+     height:15px;
+     top:0;
+     left:50%;
+     margin-left:-23px;
+     background:url(../images/coupon20150805.png) 0 -271px no-repeat;
+ }
+.c-bottom{
+    display:inline-block;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:5px;
+    background:url(//misc.360buyimg.com/user/myjd-2015/css/i/coupon20150805.png) -3px -311px no-repeat;
+}
+.ticket .c-bottom{
+    background-position: -3px -326px;
+}
+.number{
+    background:#faf9f9;
+    width:205px;
+    height:105px;
+    color:#999;
+    margin-top:6px;
+    padding-top:10px;
+}
+.number .use{
+    padding:6px 30px;
+    border:1px solid #74d2d4;
+    border-radius:20px;
+    background-color:#faf9f9;
+    margin-top:20px;
+    color:#74d2d4;
+}
+.ticket{
+    background-color:#7ea7ce;
+}
+.used,.failure{
+    display:inline-block;
+    width:102px;
+    height:102px;
+    position:absolute;
+    top:-16px;
+    right:0;
+    background:url("../images/gift_stamp_31.png") no-repeat;
+}
+.failure{
+    background:url("../images/gift_stamp_21.png") no-repeat;
+}

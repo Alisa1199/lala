@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+    <link rel="stylesheet" href="../css/introduction.css"/>
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.js"></script>
+    <script src="../js/respond.js"></script>
+    <![endif]-->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <title>产品介绍</title>
+</head>
+<body>
+<div id="sidebar"></div>
+<div id="header"></div>
+<div id="nav"></div>
+<div class="container">
+    <ol class="breadcrumb">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="#">分类</a></li>
+        <li class="active">内容</li>
+    </ol>
+    <div class="media">
+        <div class="media-left">
+            <div id="preview">
+                <div id="viewBox">
+                    <img id="mImg" src="../images/03_mid.jpg"/>
+                    <div id="mask"></div>
+                    <div id="superMask"></div>
+                </div>
+                <div id="largeImg"></div>
+                <ul class="insets">
+                    <li><img data-lg="../images/01.jpg" data-md="../images/01_mid.jpg" src="../images/01_small.jpg"/></li>
+                    <li><img data-lg="../images/02.jpg" data-md="../images/02_mid.jpg" src="../images/02_small.jpg"/></li>
+                    <li><img data-lg="../images/03.jpg" data-md="../images/03_mid.jpg" class="active" src="../images/03_small.jpg"/></li>
+                </ul>
+            </div>
+        </div>
+        <div class="media-body media-body-right">
+            <h4 class="media-heading">良品铺子 手剥松子218g 坚果炒货 巴西松子</h4>
+            <div class="shop-discount">
+                <div>店铺优惠<span class="discount">购物满2件打8折，满3件7折</span><a id="clc" href="javascript:;">点击领卷<span class="caret"></span></a></div>
+                <div>促销价<span class="unit">￥</span><span class="discount-money">56.90</span></div>
+                <div>原价<span class="old-unit">￥98.00</span></div>
+                <div id="coupons" class="hide">优惠券<span class="coupons">125减5</span> <span class="coupons">198减10</span> <span class="coupons">298减20</span></div>
+            </div>
+            <div class="address">配送至
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        <span class="txt">浙江省</span> <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="active"><a href="javascript:;">浙江省</a></li>
+                        <li><a href="javascript:;">湖北省</a></li>
+                    </ul>
+                </div>
+                    <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        温州市 <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="active"><a href="javascript:;">温州市</a></li>
+                        <li><a href="javascript:;">武汉市</a></li>
+                    </ul>
+                    </div>
+                    <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        瑞安区 <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="active"><a href="javascript:;">瑞安区</a></li>
+                        <li><a href="javascript:;">洪山区</a></li>
+                    </ul>
+                </div>
+                <span class="courier">快递10元</span>
+            </div>
+            <ul class="sales">
+                <li><a href="javascript:;">月销量 <span>1015</span></a></li>
+                <li><a href="javascript:;">累计销量 <span>6015</span></a></li>
+                <li><a href="javascript:;">累计评价 <span>655</span></a></li>
+            </ul>
+            <div class="options">口味 <span class="selected">原味 <i></i></span> <span>奶油<i></i></span> <span>炭烧<i></i></span> <span>咸香<i></i></span></div>
+            <div class="options">包装 <span>手提单人份<i></i></span> <span>礼盒双人份<i></i></span> <span class="selected">全家福礼包<i></i></span></div>
+            <div class="number">数量
+                <button class="btn btn-default reduce">-</button>
+                <input id="num" type="number" value="1"/>
+                <button class="btn btn-default add">+</button>
+                <span>库存1000件</span>
+            </div>
+            <div class="payment">
+                <a href="pay.html" class="buy">立即购买</a>
+                <span class="shopping-cart">加入购物车</span>
+            </div>
+        </div>
+        <div id="bounced">加入购物车成功</div>
+    </div>
+    <h3 class="head">优惠套装</h3>
+    <ul class="recommended">
+        <li>
+            <img src="../images/cp.jpg"/>
+            <p><a href="javascript:;">萨拉米1+1小腿肉</a></p>
+            <p class="present-price">￥29.90<span class="old-price">￥199.00</span></p>
+        </li>
+        <li class="add">+</li>
+        <li>
+            <img src="../images/cp2.jpg"/>
+            <p><a href="javascript:;">ZER原味海苔</a></p>
+            <p class="present-price">￥8.90<span class="old-price">￥199.00</span></p>
+        </li>
+        <li class="add">=</li>
+        <li>
+            <h3 class="total">套餐价：￥35.00</h3>
+            <p>共省：￥463.00</p>
+            <a href="pay.html" class="buy-now">立即购买</a>
+        </li>
+    </ul>
+    <div class="media">
+        <div class="media-left media-left-detail">
+            <div class="thumbnail">
+                <p>看了又看</p>
+                <img src="../images/browse1.jpg"/>
+                <div class="caption">
+                    <a href="introduction.html">【三只松鼠_开口松子】零食坚果特产炒货东北红松子原味</a>
+                    <h3 class="total">￥35.90</h3>
+                </div>
+                <span class="border-btm"></span>
+                <img src="../images/browse1.jpg"/>
+                <div class="caption">
+                    <a href="introduction.html">【三只松鼠_开口松子】零食坚果特产炒货东北红松子原味</a>
+                    <h3 class="total">￥35.90</h3>
+                </div>
+                <span class="border-btm"></span>
+                <img src="../images/browse1.jpg"/>
+                <div class="caption">
+                    <a href="introduction.html">【三只松鼠_开口松子】零食坚果特产炒货东北红松子原味</a>
+                    <h3 class="total btm10">￥35.90</h3>
+                </div>
+            </div>
+        </div>
+        <div class="media-body">
+            <ul class="nav nav-pills navbar-default" role="tablist">
+                <li class="baby-details active"><a href="#baby-details-inner" aria-controls="baby-details-inner" role="tab" data-toggle="tab">宝贝详情</a></li>
+                <li class="all-evaluation"><a href="#All-evaluation" aria-controls="All-evaluation" role="tab" data-toggle="tab">全部评价</a></li>
+                <li class="guess-like"><a href="#Guess-you-like" aria-controls="Guess-you-like" role="tab" data-toggle="tab">猜你喜欢</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="baby-details-inner" role="tabpanel" class="tab-pane active">
+                    <span class="product-header">产品参数</span>
+                    <table class="dates">
+                        <tr>
+                            <td>产品类型: 烘炒类</td>
+                            <td>原料产地: 巴基斯坦</td>
+                            <td>产地: 湖北省武汉市</td>
+                        </tr>
+                        <tr>
+                            <td>配料表: 进口松子、食用盐</td>
+                            <td>产品规格: 210g</td>
+                            <td>保质期: 180天</td>
+                        </tr>
+                        <tr>
+                            <td>产品标准号: GB/T 22165</td>
+                            <td>生产许可证编号： QS4201 1801 0226</td>
+                            <td>储存方法： 请放置于常温、阴凉、通风、干燥处保存</td>
+                        </tr>
+                        <tr>
+                            <td>食用方法： 开袋去壳即食</td>
+                        </tr>
+                    </table>
+                    <span class="product-header">商品细节</span>
+                    <img src="../images/tw1.jpg"/>
+                    <img src="../images/tw2.jpg"/>
+                    <img src="../images/tw3.jpg"/>
+                    <img src="../images/tw4.jpg"/>
+                    <img src="../images/tw5.jpg"/>
+                    <img src="../images/tw6.jpg"/>
+                    <img src="../images/tw7.jpg"/>
+                </div>
+                <div role="tabpanel" class="tab-pane clearfix" id="All-evaluation">
+                    <div class="clearfix good-evaluate">
+                        <div class="pull-left">
+                            <h1 class="rating">100<span>%</span></h1>
+                            <p>好评度</p>
+                        </div>
+                        <div class="pull-right">
+                            <p class="Buyers-impression">买家印象</p>
+                            <span>"味道不错"(2177)</span>
+                            <span>"颗粒饱满"(1860)</span>
+                            <span>"口感好"(1823)</span>
+                            <span>"商品不错"(1765)</span>
+                            <span>"香脆可口"(1488)</span>
+                            <span>"个个开口"(1023)</span>
+                            <span>"价格便宜"(994)</span>
+                            <span>"特价买的"(861)</span>
+                            <span>"皮很薄"(761)</span>
+                        </div>
+                    </div>
+                    <header>
+                        <span>全部评价（32）</span>
+                        <span>好评（32）</span>
+                        <span>中评（0）</span>
+                        <span>差评（0）</span>
+                    </header>
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="../images/hwbn40x40.jpg"/>
+                        </div>
+                        <div class="media-body">
+                            <div class="popover right">
+                                <div class="arrow"></div>
+                                <h3 class="popover-title">b***1(匿名) <span>评论于 2015年12月11日 14:00</span></h3>
+                                <div class="popover-content">
+                                    <p>摸起来丝滑柔软，不厚，没色差，颜色好看！买这个衣服还接到诈骗电话，我很好奇他们是怎么知道我买了这件衣服，并且还知道我的电话的！</p>
+                                    <p>颜色分类：柠檬黄  尺码：S</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="../images/hwbn40x40.jpg"/>
+                        </div>
+                        <div class="media-body">
+                            <div class="popover right">
+                                <div class="arrow"></div>
+                                <h3 class="popover-title">b***1(匿名) <span>评论于 2015年12月11日 14:00</span></h3>
+                                <div class="popover-content">
+                                    <p>摸起来丝滑柔软，不厚，没色差，颜色好看！买这个衣服还接到诈骗电话，我很好奇他们是怎么知道我买了这件衣服，并且还知道我的电话的！</p>
+                                    <p>颜色分类：柠檬黄  尺码：S</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="../images/hwbn40x40.jpg"/>
+                        </div>
+                        <div class="media-body">
+                            <div class="popover right">
+                                <div class="arrow"></div>
+                                <h3 class="popover-title">b***1(匿名) <span>评论于 2015年12月11日 14:00</span></h3>
+                                <div class="popover-content">
+                                    <p>摸起来丝滑柔软，不厚，没色差，颜色好看！买这个衣服还接到诈骗电话，我很好奇他们是怎么知道我买了这件衣服，并且还知道我的电话的！</p>
+                                    <p>颜色分类：柠檬黄  尺码：S</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="media">
+                    <div class="media-left">
+                        <img src="../images/hwbn40x40.jpg"/>
+                    </div>
+                    <div class="media-body">
+                        <div class="popover right">
+                            <div class="arrow"></div>
+                            <h3 class="popover-title">b***1(匿名) <span>评论于 2015年12月11日 14:00</span></h3>
+                            <div class="popover-content">
+                                <p>摸起来丝滑柔软，不厚，没色差，颜色好看！买这个衣服还接到诈骗电话，我很好奇他们是怎么知道我买了这件衣服，并且还知道我的电话的！</p>
+                                <p>颜色分类：柠檬黄  尺码：S</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="media">
+                    <div class="media-left">
+                        <img src="../images/hwbn40x40.jpg"/>
+                    </div>
+                    <div class="media-body">
+                        <div class="popover right">
+                            <div class="arrow"></div>
+                            <h3 class="popover-title">b***1(匿名) <span>评论于 2015年12月11日 14:00</span></h3>
+                            <div class="popover-content">
+                                <p>摸起来丝滑柔软，不厚，没色差，颜色好看！买这个衣服还接到诈骗电话，我很好奇他们是怎么知道我买了这件衣服，并且还知道我的电话的！</p>
+                                <p>颜色分类：柠檬黄  尺码：S</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="media">
+                    <div class="media-left">
+                        <img src="../images/hwbn40x40.jpg"/>
+                    </div>
+                    <div class="media-body">
+                        <div class="popover right">
+                            <div class="arrow"></div>
+                            <h3 class="popover-title">b***1(匿名) <span>评论于 2015年12月11日 14:00</span></h3>
+                            <div class="popover-content">
+                                <p>摸起来丝滑柔软，不厚，没色差，颜色好看！买这个衣服还接到诈骗电话，我很好奇他们是怎么知道我买了这件衣服，并且还知道我的电话的！</p>
+                                <p>颜色分类：柠檬黄  尺码：S</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="media">
+                    <div class="media-left">
+                        <img src="../images/hwbn40x40.jpg"/>
+                    </div>
+                    <div class="media-body">
+                        <div class="popover right">
+                            <div class="arrow"></div>
+                            <h3 class="popover-title">b***1(匿名) <span>评论于 2015年12月11日 14:00</span></h3>
+                            <div class="popover-content">
+                                <p>摸起来丝滑柔软，不厚，没色差，颜色好看！买这个衣服还接到诈骗电话，我很好奇他们是怎么知道我买了这件衣服，并且还知道我的电话的！</p>
+                                <p>颜色分类：柠檬黄  尺码：S</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="../images/hwbn40x40.jpg"/>
+                        </div>
+                        <div class="media-body">
+                            <div class="popover right">
+                                <div class="arrow"></div>
+                                <h3 class="popover-title">b***1(匿名) <span>评论于 2015年12月11日 14:00</span></h3>
+                                <div class="popover-content">
+                                    <p>摸起来丝滑柔软，不厚，没色差，颜色好看！买这个衣服还接到诈骗电话，我很好奇他们是怎么知道我买了这件衣服，并且还知道我的电话的！</p>
+                                    <p>颜色分类：柠檬黄  尺码：S</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination1">
+                            <li id="Previous">
+                                <a href="javascript:;" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page active"><a href="JavaScript:;">1</a></li>
+                            <li class="page"><a href="javascript:;">2</a></li>
+                            <li class="page"><a href="javascript:;">3</a></li>
+                            <li class="page"><a href="javascript:;">4</a></li>
+                            <li class="page"><a href="javascript:;">5</a></li>
+                            <li id="Next1">
+                                <a href="javascript:;" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div role="tabpanel" class="tab-pane clearfix" id="Guess-you-like">
+                    <div class="little-img">
+                        <img src="../images/imgsearch1.jpg"/>
+                        <p>【良品铺子_开口松子】零食坚果特产炒货</p>
+                        <p>东北红松子奶油味</p>
+                        <p>￥298.00</p>
+                    </div>
+                    <div class="little-img">
+                        <img src="../images/imgsearch1.jpg"/>
+                        <p>【良品铺子_开口松子】零食坚果特产炒货</p>
+                        <p>东北红松子奶油味</p>
+                        <p>￥298.00</p>
+                    </div>
+                    <div class="little-img">
+                        <img src="../images/imgsearch1.jpg"/>
+                        <p>【良品铺子_开口松子】零食坚果特产炒货</p>
+                        <p>东北红松子奶油味</p>
+                        <p>￥298.00</p>
+                    </div>
+                    <div class="little-img">
+                        <img src="../images/imgsearch1.jpg"/>
+                        <p>【良品铺子_开口松子】零食坚果特产炒货</p>
+                        <p>东北红松子奶油味</p>
+                        <p>￥298.00</p>
+                    </div>
+                    <div class="little-img">
+                        <img src="../images/imgsearch1.jpg"/>
+                        <p>【良品铺子_开口松子】零食坚果特产炒货</p>
+                        <p>东北红松子奶油味</p>
+                        <p>￥298.00</p>
+                    </div>
+                    <div class="little-img">
+                        <img src="../images/imgsearch1.jpg"/>
+                        <p>【良品铺子_开口松子】零食坚果特产炒货</p>
+                        <p>东北红松子奶油味</p>
+                        <p>￥298.00</p>
+                    </div>
+                    <div class="little-img">
+                        <img src="../images/imgsearch1.jpg"/>
+                        <p>【良品铺子_开口松子】零食坚果特产炒货</p>
+                        <p>东北红松子奶油味</p>
+                        <p>￥298.00</p>
+                    </div>
+                    <div class="little-img">
+                        <img src="../images/imgsearch1.jpg"/>
+                        <p>【良品铺子_开口松子】零食坚果特产炒货</p>
+                        <p>东北红松子奶油味</p>
+                        <p>￥298.00</p>
+                    </div>
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                            <li class="Previous">
+                                <a href="javascript:;" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page active"><a href="JavaScript:;">1</a></li>
+                            <li class="page"><a href="javascript:;">2</a></li>
+                            <li class="page"><a href="javascript:;">3</a></li>
+                            <li class="page"><a href="javascript:;">4</a></li>
+                            <li class="page"><a href="javascript:;">5</a></li>
+                            <li class="Next">
+                                <a href="javascript:;" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id="footer"></div>
+        </div>
+    </div>
+</div>
+<!--<script>-->
+    <!--$(function () {-->
+        <!--$('[data-toggle="tooltip"]').tooltip()-->
+    <!--})-->
+    <!--$(function () {-->
+        <!--$('[data-toggle="popover"]').popover()-->
+    <!--})-->
+    <!--$('#example').popover(options);-->
+<!--</script>-->
+<script src="../js/sidebar.js"></script>
+<script src="../js/header.js"></script>
+<script src="../js/nav.js"></script>
+<script src="../js/footer.js"></script>
+<script src="../js/introduction.js"></script>
+</body>
+</html>

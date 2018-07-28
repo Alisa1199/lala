@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+    <link rel="stylesheet" href="../css/pay.css"/>
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.js"></script>
+    <script src="../js/respond.js"></script>
+    <![endif]-->
+    <title>结算</title>
+</head>
+<body>
+<div id="header"></div>
+<div class="container">
+    <div class="address">
+        <botton class="btn btn-default">确认收货地址</botton>
+        <botton class="btn btn-primary" data-toggle="modal" data-target="#myModal">使用新地址</botton>
+    </div>
+    <ul class="details-address clearfix">
+        <li class="active">
+            <header>画画 18381687899<span class="label label-default">默认地址</span></header>
+            <p>收货地址：成都市双流县剑南大道美城云庭3单元709</p>
+            <div class="modify">
+                <span>编辑</span> |
+                <span>删除</span>
+            </div>
+        </li>
+        <li>
+            <header>贝贝 15984651254</header>
+            <p>收货地址：成都市双流县剑南大道美城云庭3单元709</p>
+            <div class="modify">
+                <span>设为默认</span> |
+                <span>编辑</span> |
+                <span>删除</span>
+            </div>
+        </li>
+    </ul>
+    <div class="way clearfix">
+            <header>选择物流方式</header>
+            <ul>
+                <li class="seleted"><span class="yt"></span>圆通<i></i></li>
+                <li><span class="st"></span>申通<i></i></li>
+                <li><span class="yd"></span>韵达<i></i></li>
+                <li><span class="zt"></span>中通<i></i></li>
+                <li><span class="sf"></span>顺丰<i></i></li>
+            </ul>
+        </div>
+    <div class="way clearfix">
+            <header>选择支付方式</header>
+            <ul>
+                <li class="seleted"><img src="../images/wangyin.jpg"/>银联<i></i></li>
+                <li><img src="../images/weizhifu.jpg"/>微信<i></i></li>
+                <li><img src="../images/zhifubao.jpg"/>支付宝<i></i></li>
+            </ul>
+        </div>
+    <header class="confirm">确认订单信息</header>
+    <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-6">商品信息</div>
+                    <div class="col-xs-1">单价</div>
+                    <div class="col-xs-2">数量</div>
+                    <div class="col-xs-1">金额</div>
+                    <div class="col-xs-2">配送方式</div>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="media">
+                            <div class="media-left"><img src="../images/kouhong.jpg_80x80.jpg"></div>
+                            <div class="media-body">
+                                <header><a href="javascript:;">美康粉黛醉美唇膏 持久保湿滋润防水不掉色</a></header>
+                                <p>颜色：12#川南玛瑙 包装：裸装</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-1">39.00</div>
+                    <div class="col-xs-2 number reduce">
+                        <button class="btn btn-default">-</button>
+                        <input type="number" value="1"/>
+                        <button class="btn btn-default add">+</button>
+                    </div>
+                    <div class="col-xs-1">117.00</div>
+                    <div class="col-xs-2">快递10元</div>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="media">
+                            <div class="media-left"><img src="../images/kouhong.jpg_80x80.jpg"></div>
+                            <div class="media-body">
+                                <header><a href="javascript:;">美康粉黛醉美唇膏 持久保湿滋润防水不掉色</a></header>
+                                <p>颜色：12#川南玛瑙 包装：裸装</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-1">39.00</div>
+                    <div class="col-xs-2 number">
+                        <button class="btn btn-default reduce">-</button>
+                        <input type="number" value="1"/>
+                        <button class="btn btn-default add">+</button>
+                    </div>
+                    <div class="col-xs-1">117.00</div>
+                    <div class="col-xs-2">包邮</div>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-9">
+                        <div class="media">
+                            <div class="media-body">
+                                买家留言：<input type="text" placeholder="选择建议填写和卖家达成一致的说明"/>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="col-xs-3">
+                            <form class="coupons">
+                        <div class="row">
+                            <div class="col-xs-4 text-right">
+                                <label>优惠券：</label>
+                            </div>
+                            <div class="col-xs-8">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle text-right" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        ￥3【无使用门槛】<span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="javascript:;">￥3【无使用门槛】</a></li>
+                                        <li><a href="javascript:;">￥5【无使用门槛】</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-4 text-right">
+                                <label>红包：</label>
+                            </div>
+                            <div class="col-xs-8">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default dropdown-toggle text-right" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        ￥3【无使用门槛】<span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="javascript:;">￥3【无使用门槛】</a></li>
+                                        <li><a href="javascript:;">￥5【无使用门槛】</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                            </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="total-header text-right clearfix">合计（含运费）<span>￥244.00</span></header>
+    <div class="text-right clearfix">
+            <div class="total">
+                <p>实付款：<span class="price">￥244.00</span></p>
+                <p><b>寄送至：</b> 湖北省 武汉市 洪山区 雄楚大道666号(中南财经政法大学)</p>
+                <p><b>收货人：</b> 艾迪 15871145629</p>
+            </div>
+        </div>
+    <div class="tijiao">
+            <a href="success.html"><button type="submit" class="btn pull-right">提交订单</button></a>
+        </div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title text-primary" id="myModalLabel">新增地址<span> / Add address</span></h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="row">
+                        <div class="col-xs-2 text-right">
+                            <label>收货人</label>
+                        </div>
+                        <div class="col-xs-10">
+                            <input type="text" id="consignee" class="form-control" placeholder="收货人"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-2 text-right">
+                            <label>手机号码</label>
+                        </div>
+                        <div class="col-xs-10">
+                            <input type="tel" id="phone" class="form-control" placeholder="手机号码"/>
+                        </div>
+                    </div>
+                    <div class="row location">
+                        <div class="col-xs-2 text-right">
+                            <label>所在地</label>
+                        </div>
+                        <div class="col-xs-10">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    浙江省<span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">浙江省</a></li>
+                                    <li><a href="#">湖北省</a></li>
+                                </ul>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    温州市<span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">温州市</a></li>
+                                    <li><a href="#">成都市</a></li>
+                                </ul>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    瑞安区<span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">瑞安区</a></li>
+                                    <li><a href="#">简阳市</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-2 text-right">
+                            <label>详细地址</label>
+                        </div>
+                        <div class="col-xs-10">
+                            <textarea class="form-control" rows="3" placeholder="请输入详细地址"></textarea>
+                            100字以内写出你的详细地址...
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">保存</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">取消</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer" class="container"></div>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/header.js"></script>
+<script src="../js/footer.js"></script>
+<script src="../js/pay.js"></script>
+</body>
+</html>
